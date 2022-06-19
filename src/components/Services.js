@@ -20,7 +20,7 @@ const Services = () => {
             const { icon, name, description } = service;
             return (
               <div className='bg-secondary p-6 rounded-2xl' key={index}>
-                <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-4 text-[28px]'>
+                <div className='text-accent rounded-sm  h-12 2xl:w-56 flex justify-center items-center mb-4 text-[28px]'>
                   {icon}
                 </div>
                 <h4 className='text-xl font-medium mb-2'>{name}</h4>

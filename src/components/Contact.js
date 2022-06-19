@@ -50,9 +50,9 @@ const Contact = () => {
               className='textarea'
               placeholder='Mensaje'
             ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
+            <a href="mailto:rpumachaguahuertas@gmail.com" target="_blank" rel='noreferrer' className='btn w-44 mx-auto lg:mx-0 bg-accent hover:bg-secondary-hover'>
               Enviar Mensaje
-            </button>
+            </a>
           </form>
         </div>
       </div>

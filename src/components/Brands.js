@@ -14,7 +14,7 @@ const Brands = () => {
             <div className='flex justify-center'
               key={idx}
             >
-              <img src={brand.img} alt='logo' className=' w-1/2 md:w-1/3 ' />
+              <img src={brand.img} alt='logo' className=' w-3/4 md:w-1/3 lg:w-1/4 xl:w-1/3 2xl:w-1/3 ' />
             </div>
           );
         })}

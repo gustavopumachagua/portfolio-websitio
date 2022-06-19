@@ -7,9 +7,6 @@ import { MenuAlt3Icon } from '@heroicons/react/outline';
 // import navigation data
 import { navigation } from '../data';
 
-// import components
-import Socials from './Socials';
-
 // import framer
 import { motion } from 'framer-motion';
 
@@ -57,7 +54,7 @@ const NavMobile = () => {
         variants={circleVariants}
         initial='hidden'
         animate={isOpen ? 'visible' : 'hidden'}
-        className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0'
+        className='w-4 h-4 rounded-full bg-neutral-700 fixed top-0 right-0'
       ></motion.div>
 
       <motion.ul
@@ -76,20 +73,21 @@ const NavMobile = () => {
         </div>
         {navigation.map((item, idx) => {
           return (
-            <li key={idx} className='mb-8'>
+            <li key={idx} className='mb-8 text-white hover:text-orange-500 cursor-pointer'>
               <Link
                 to={item.href}
+                activeClass='active'
+                spy={true}
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className='text-xl cursor-pointer capitalize'
+                className='text-xl transition-all duration-300 capitalize'
               >
                 {item.name}
               </Link>
             </li>
           );
         })}
-        <Socials />
       </motion.ul>
     </nav>
   );

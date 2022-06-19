@@ -21,21 +21,21 @@ const Header = () => {
         bg ? 'bg-tertiary h-20' : 'h-24'
       } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
     >
-      <div className='container mx-auto h-full flex items-center justify-between'>
+      <div className='container mx-auto h-full flex items-center justify-between '>
         {/* logo */}
-        <a href='./'>
-          <img src={Logo} alt='' />
-        </a>
+        <figure>
+          <img src={Logo} alt='logo' />
+        </figure>
         {/* nav */}
-        <div className='hidden lg:block'>
+        <div className='hidden xl:block'>
           <Nav />
         </div>
         {/* Socials */}
-        <div className='hidden lg:block'>
+        <div className='hidden xl:block'>
           <Socials />
         </div>
         {/* nav mobile*/}
-        <div className='lg:hidden'>
+        <div className='xl:hidden'>
           <NavMobile />
         </div>
       </div>

@@ -9,7 +9,7 @@ const About = () => {
       <div className='container mx-auto'>
         <div className=' flex flex-col xl:flex-row gap-10 '>
           <img
-            className=' mx-auto px-24  md:px-28 lg:px-32 '
+            className=' mx-auto px-12 sm:24-px  md:px-28 lg:px-32 '
             src={Image}
             alt=''
           />
@@ -23,7 +23,7 @@ const About = () => {
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-              Soy desarrollador Front-end con más de 2 años de experiencia en desarrollo web, 2+ años experiencia en Javascript, React. <br />
+              Soy desarrollador Front-end con más de 2 años de experiencia en desarrollo web, experiencia en Javascript, React. <br />
                 <br />
                 Me fascina el desarrollo de soluciones para empresas, trabajando con libreria como React y el uso de Framework como TailwindCSS y empaquetadores como Webpack para poder lograr proyectos ordenados y usando las buenas prácticas.
               </p>

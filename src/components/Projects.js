@@ -32,8 +32,8 @@ const Projects = () => {
   return (
     <div>
       {/* projects nav */}
-      <nav className='mb-12 max-w-xl mx-auto'>
-        <ul className='flex flex-col md:flex-row justify-evenly items-center text-white'>
+      <nav className='mb-10 max-w-xl mx-auto'>
+        <ul className='flex flex-col md:flex-row space-x-10 items-center text-white'>
           {projectsNav.map((item, index) => {
             return (
               <li
@@ -42,7 +42,7 @@ const Projects = () => {
                 }}
                 className={`${
                   active === index ? 'active' : ''
-                } cursor-pointer capitalize m-4`}
+                } cursor-pointer capitalize m-2 `}
                 key={index}
               >
                 {item.name}
@@ -52,11 +52,13 @@ const Projects = () => {
         </ul>
       </nav>
       {/* projects */}
-      <section className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8'>
+      
+      <section className='grid gap-y-4 2xl:grid-cols-6 lg:gap-x-8 lg:gap-y-8 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 '>
         {projects.map((item) => {
           return <Project item={item} key={item.id} />;
         })}
       </section>
+      
     </div>
   );
 };
