@@ -134,7 +134,7 @@ export const social = [
   },
   {
     icon: <SiPlatzi />,
-    href: '',
+    href: 'https://platzi.com/p/gustavopumachagua/',
   },
 ];
 // companies
