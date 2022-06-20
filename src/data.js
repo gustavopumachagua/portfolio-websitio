@@ -1,9 +1,7 @@
 //  icons
 import {
   FiTwitter,
-  FiInstagram,
   FiGithub,
-  FiAtSign,
   FiMonitor,
   FiAirplay,
   FiServer,
@@ -11,10 +9,12 @@ import {
   FiMail,
   FiMapPin,
   FiXCircle,
-  FiFigma,
 } from 'react-icons/fi';
 // icons modal
 import { GrDeploy } from "react-icons/gr";
+// icons notion
+import {SiNotion} from 'react-icons/si';
+import { SiPlatzi } from "react-icons/si";
 
 // companies icons
 import Logo from './assets/img/brands/logo.png';
@@ -93,10 +93,6 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -117,10 +113,6 @@ export const navigation = [
     href: 'services',
   },
   {
-    name: 'Diseños',
-    href: 'diseños',
-  },
-  {
     name: 'Contactos',
     href: 'contact',
   },
@@ -133,19 +125,18 @@ export const social = [
     href: 'https://twitter.com/Gussdev',
   },
   {
-    icon: <FiInstagram />,
-    href: 'https://www.instagram.com/guss.dev/',
+    icon: <SiNotion/>,
+    href: 'https://gussdev.notion.site/Desarrollo-Web-cd33325b6e8b4db9bf28271a31d3743a',
   },
   {
     icon: <FiGithub />,
     href: 'https://github.com/gustavopumachagua',
   },
   {
-    icon: <FiAtSign />,
+    icon: <SiPlatzi />,
     href: '',
   },
 ];
-
 // companies
 export const brands = [
   {
@@ -749,99 +740,6 @@ export const services = [
       'Tengo estudios sobre base de datos desde la implementacion, administracion y el modelado de base de datos',
   },
 ];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doegfdghdfhhfdhggfggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'No se cansa de aprender, el siempre esta en constantes investigacion.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Es un chico visionario, le gusta imaginar el futuro e investigar.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Es una persona muy investigador, lo que no sabe lo aprende muy rapido el solo.',
-    authorName: 'Olivia Doe',
-    icon: <FiFigma/>,
-    href: 'https://twitter.com/Gussdev',
-  },
-];
-
 // contact
 export const contact = [
   {
@@ -857,3 +755,4 @@ export const contact = [
     description: '2022',
   },
 ];
+

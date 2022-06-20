@@ -24,7 +24,7 @@ const TestiSlider = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 9500,
+          delay: 10500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
@@ -35,23 +35,23 @@ const TestiSlider = () => {
           return (
             <SwiperSlide key={index}>
               <div
-                className='flex flex-col lg:flex-row gap-12 lg:gap-32'
+                className='flex flex-col lg:flex-row gap-2 lg:gap-32'
               >
                 <div
                   className='w-48 h-48 lg:w-[328px] lg:h-[328px]'
                 >
-                  <img className='rounded-2xl' src={authorImg} alt='' />
+                  <img className='rounded-2xl' src={authorImg} alt='slider' />
                 </div>
                 <div
-                  className='flex flex-col max-w-3xl'
+                  className='flex flex-col  max-w-3xl'
                 >
-                  <h2 className='font-body text-2xl text-yellow-300 mb-8  font-normal'>
+                  <h2 className='font-body text-base text-yellow-300 mb-8  font-normal'>
                     {authorText}
                   </h2>
-                  <div className='mb-14'>
+                  <div className='mb-2'>
                     <p className='text-lg text-white'>{authorName}</p>
                   </div>
-                  <ul className='flex space-x-6  '>
+                <ul className='flex space-x-6'>
                   <li className='flex justify-center items-center  social'>
                   <a target="_blank" rel='noreferrer' className='text-base' href={href} >
               {icon}

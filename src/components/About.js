@@ -3,6 +3,7 @@ import React from 'react';
 // import img
 import Image from '../assets/img/1.webp';
 
+
 const About = () => {
   return (
     <section className='section bg-secondary' id='about'>
@@ -23,14 +24,12 @@ const About = () => {
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-              Soy desarrollador Front-end con más de 2 años de experiencia en desarrollo web, experiencia en Javascript, React. <br />
-                <br />
-                Me fascina el desarrollo de soluciones para empresas, trabajando con libreria como React y el uso de Framework como TailwindCSS y empaquetadores como Webpack para poder lograr proyectos ordenados y usando las buenas prácticas.
+              Soy desarrollador Front-end con más de 2 años de experiencia en desarrollo web, experiencia en Javascript, Reactjs. <br />
+                Me fascina el desarrollo web, trabajando con libreria como Reactjs y el uso de Framework como TailwindCSS.
+                <br/>
+                A lo largo de mis estudios, pude realizar mis apuntes en Notion, espero que les gusten 🙈.
               </p>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contactos
-            </button>
           </div>
         </div>
       </div>
