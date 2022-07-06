@@ -2,10 +2,6 @@
 import {
   FiTwitter,
   FiGithub,
-  FiMonitor,
-  FiAirplay,
-  FiServer,
-  FiDatabase,
   FiMail,
   FiMapPin,
   FiXCircle,
@@ -15,9 +11,6 @@ import { GrDeploy } from "react-icons/gr";
 // icons notion
 import {SiNotion} from 'react-icons/si';
 import { SiPlatzi } from "react-icons/si";
-
-// companies icons
-import Logo from './assets/img/brands/logo.png';
 
 //modal
 import Modal1 from './components/modal/Modal1';
@@ -83,37 +76,24 @@ import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
 import Project6 from './assets/img/projects/p6.webp';
 
-// skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
 
 
 // navigation
 export const navigation = [
   {
-    name: 'Inicio',
+    name: 'Home',
     href: 'home',
   },
   {
-    name: 'Sobre Mi',
-    href: 'about',
+    name: 'Skills',
+    href: 'skills',
   },
   {
-    name: 'Portafolio',
+    name: 'Portfolio',
     href: 'portfolio',
   },
   {
-    name: 'Servicios',
-    href: 'services',
-  },
-  {
-    name: 'Contactos',
+    name: 'Contact',
     href: 'contact',
   },
 ];
@@ -136,13 +116,6 @@ export const social = [
     icon: <SiPlatzi />,
     href: 'https://platzi.com/p/gustavopumachagua/',
   },
-];
-// companies
-export const brands = [
-  {
-    img: Logo,
-    href: '',
-  }
 ];
 
 //projectsModal
@@ -524,147 +497,147 @@ export const projectsData = [
     id: '6',
     image: Project6,
     name: 'project name 6',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal6/>,
   },
   {
     id: '7',
     image: Project6,
     name: 'project name 7',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal7/>,
   },
   {
     id: '8',
     image: Project6,
     name: 'project name 8',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal8/>,
   },
   {
     id: '9',
     image: Project6,
     name: 'project name 9',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal9/>,
   },
   {
     id: '10',
     image: Project6,
     name: 'project name 10',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal10/>,
   },
   {
     id: '11',
     image: Project6,
     name: 'project name 11',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal11/>,
   },
   {
     id: '12',
     image: Project6,
     name: 'project name 12',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal12/>,
   },
   {
     id: '13',
     image: Project6,
     name: 'project name 13',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal13/>,
   },
   {
     id: '14',
     image: Project6,
     name: 'project name 14',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal14/>,
   },
   {
     id: '15',
     image: Project6,
     name: 'project name 15',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal15/>,
   },
   {
     id: '16',
     image: Project6,
     name: 'project name 16',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal16/>,
   },
   {
     id: '17',
     image: Project6,
     name: 'project name 17',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal17/>,
   },
   {
     id: '18',
     image: Project6,
     name: 'project name 18',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal18/>,
   },
   {
     id: '19',
     image: Project6,
     name: 'project name 19',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal19/>,
   },
   {
     id: '20',
     image: Project6,
     name: 'project name 20',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal20/>,
   },
   {
     id: '21',
     image: Project6,
     name: 'project name 21',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal21/>,
   },
   {
     id: '22',
     image: Project6,
     name: 'project name 22',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal22/>,
   },
   {
     id: '23',
     image: Project6,
     name: 'project name 23',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal23/>,
   },
   {
     id: '24',
     image: Project6,
     name: 'project name 24',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal24/>,
   },
   {
     id: '25',
     image: Project6,
     name: 'project name 25',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal25/>,
   },
   {
     id: '26',
     image: Project6,
     name: 'project name 26',
-    category: 'Proyectos con API',
+    category: 'Proyectos Personales',
     modal:<Modal26/>,
   },
 ];
@@ -685,61 +658,6 @@ export const projectsNav = [
   },
 ];
 
-// skill
-export const skills = [
-  {
-    image: SkillImg1,
-  },
-  {
-    image: SkillImg2,
-  },
-  {
-    image: SkillImg3,
-  },
-  {
-    image: SkillImg4,
-  },
-  {
-    image: SkillImg5,
-  },
-  {
-    image: SkillImg6,
-  },
-  {
-    image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
-  },
-];
-
-// services
-export const services = [
-  {
-    icon: <FiMonitor />,
-    name: 'Diseño Web',
-    description:
-      'Tengo amplios conocimientos y experiencia en HTML, CSS, JS, diseño grafico con Figma.',
-  },
-  {
-    icon: <FiAirplay />,
-    name: 'Web Development',
-    description:
-      'Tengos proyectos desarrollados en lenguajes de programación como ReactJS',
-  },
-  {
-    icon: <FiServer />,
-    name: 'Desarrollo de sistemas',
-    description:
-      'Tengos proyectos desarrollados en lenguajes de programación como NodeJS',
-  },
-  {
-    icon: <FiDatabase/>,
-    name: 'Administracion de Base de datos',
-    description:
-      'Tengo estudios sobre base de datos desde la implementacion, administracion y el modelado de base de datos',
-  },
-];
 // contact
 export const contact = [
   {

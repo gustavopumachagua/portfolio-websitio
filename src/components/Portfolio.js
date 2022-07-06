@@ -5,9 +5,9 @@ import Projects from './Projects';
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' className='section bg-primary min-h-[1400px]'>
+    <section id='portfolio' className='section  flex items-center bg-primary xl:bg-cover xl:bg-center xl:bg-no-repea overflow-hidden'>
       <div className='container mx-auto'>
-        <div className='flex flex-col items-center text-center '>
+        <div className='flex flex-col items-center  '>
           <h2 className='section-title before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
             Mi Lista de Proyectos
           </h2>

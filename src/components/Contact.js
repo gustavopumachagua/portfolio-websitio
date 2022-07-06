@@ -6,7 +6,7 @@ import { contact } from '../data';
 
 const Contact = () => {
   return (
-    <section className='section bg-primary' id='contact'>
+    <section className='section bg-primary xl:h-[120vh] flex items-center xl:bg-cover xl:bg-center xl:bg-no-repeat py-32 xl:py-0 overflow-hidden' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
